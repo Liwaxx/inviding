@@ -265,8 +265,9 @@
   }
   .pencil-mb{
     display: block;
-    width: 80%;
-    right: -30%;
+    width: 50%;
+    right: 0;
+    top: 0;
   }
   .title{
     font-size: 28px;
