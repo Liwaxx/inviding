@@ -1,0 +1,20 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.active{
+  color: #565350;
+}
+.nav-style{
+  background-color: transparent;
+}
+.nav-items{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 510px){
+  .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: transparent !important;
+  }
+}

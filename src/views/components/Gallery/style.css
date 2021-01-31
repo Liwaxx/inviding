@@ -1,0 +1,29 @@
+.gallery img {
+  transition: all 0.3s ease-in-out;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.mb{
+  display: none !important;
+}
+
+.drop-shadow{
+    box-shadow: 15px 15px 50px grey;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 1441px) {
+  .gallery img{
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px){
+  .wb{
+    display: none !important;
+  }
+  .mb{
+    display: flex !important;
+  }
+}

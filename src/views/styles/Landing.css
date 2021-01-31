@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.f-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.page-1{
+  background-image: url('../../images/page-1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.page-2{
+  overflow: hidden;
+}
+.page-3{
+  background-image: linear-gradient(to right, #FFFF , rgba(0, 0, 0, 0.15));
+}
+.page-5{
+  margin-bottom: 10%;
+}
+.wrapper{
+  background-color: #565350;
+}
+.footer{
+  height: 516px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.f-mb{
+  display: none;
+}
+.title{
+  color: #565350;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+}
+
+.tagline-desc{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+
+  letter-spacing: 0.02em;
+
+  color: #6F7376;
+}
+
+.footer-link{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+
+  letter-spacing: 0.02em;
+
+  color: #A2A5A8;
+}
+
+.footer-link a{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 214% */
+  
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+}
+.copyright{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 214% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #A2A5A8;
+  align-self: flex-end;
+}
+.merge{
+  bottom: -40%;
+}
+.bk2{
+  margin-top: 10% ;
+}
+/* IMAGES */
+.bot-right{
+    bottom: -15%;
+    right: -10%;
+}
+#FootLeaf{
+  left: -4%;
+  top: -45%;
+}
+.flower{
+  display: flex;
+  justify-content: flex-end;
+}
+.c-leaf{
+  left: -18%;
+  top: 10%;
+  z-index: 0;
+}
+.c-leaf-m{
+  display: none;
+}
+.img-mb{
+  display: none;
+}
+.pencil-mb{
+  display: none;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 1760px) {
+  .tagline {
+    margin-top: 10%;
+  }
+
+  .c-leaf{
+    left: -10%;
+  }
+}
+
+@media only screen and (max-width: 1439px) {
+  .tagline {
+    margin-top: 15%;
+  }
+
+  .bot-right{
+    right: -15%;
+  }
+  .c-leaf{
+    left: -30%;
+  }
+  .bk2{
+    margin-top: 5% ;
+    margin-bottom: 5% ;
+  }
+  #FootLeaf{
+    width: 18%;
+  }
+  .page-5{
+    margin-bottom: 15%;
+  }
+  .merge{
+    bottom: -50%;
+  }
+  .fbl{
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1800px){
+  .merge{
+    bottom: -60%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .title{
+    font-size: 30px;
+  }
+  .tagline-desc{
+    font-size: 14px;
+  }
+  .merge{
+    bottom: -40%;
+  }
+  #FootLeaf{
+    width: 15%;
+    top: -20%;
+  }
+  .top-left{
+    width: 15%;
+  }
+  .flower img{
+    width: 15%;
+  }
+  .bot-right{
+    width: 50%;
+    right: -15%;
+  }
+  .footer{
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .page-1{
+    background-position: left;
+  }
+  .title{
+    text-align: center;
+  }
+  .tagline-desc{
+    text-align: center;
+  }
+  .c-leaf-m{
+    display: block;
+    bottom: 4%;
+    left: -50%;
+    width: 100%;
+  }
+  .footer{
+    padding-top: 30%;
+    height: auto;
+  }
+  .bk2{
+    display: flex;
+    justify-content: center;
+  }
+  .t-left{
+    text-align: left
+  }  
+  .t-right{
+    text-align: right
+  }
+  .f-mb{
+    display: block;
+  }.f-wb{
+    display: none;
+  }
+  /* IMAGES */
+  .img-mb{
+    display: flex;
+    justify-content: center;
+  }
+  .img-wb{
+    display: none;
+  }
+  .c-leaf{
+    left: -45%;
+    top: 25%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 510px){
+  .merge {
+    bottom: -30%;
+  }
+  .pencil-mb{
+    display: block;
+    width: 80%;
+    right: -30%;
+  }
+  .title{
+    font-size: 28px;
+  }
+  .c-leaf{
+    left: -55%;
+    top: 40%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .merge {
+    bottom: -27%;
+  }
+}
+
